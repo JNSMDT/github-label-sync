@@ -1,0 +1,79 @@
+scopeSeperator="::"
+
+[[Labels]]
+name = "bug"
+color = "#E11444"
+description = "critical bug that needs to be fixed"
+scope="type"
+
+[[Labels]]
+name = "breaking"
+color = "#E11444"
+description = "A breaking change that requires a major version bump"
+scope="type"
+
+[[Labels]]
+name = "feat"
+color = "#06D6A0"
+description = "New feature idea/request"
+scope="type"
+
+[[Labels]]
+name = "documentation"
+color = "#118AB2"
+description = "Documentation related issue"
+scope="type"
+
+[[Labels]]
+name = "DX"
+color = "#5D6E15"
+description = "Addition or change that make development a little bit easier"
+scope="type"
+
+[[Labels]]
+name = "UX"
+color = "#839A1D"
+description = "Additions or changes that would improve usability or anything like that"
+scope="type"
+
+[[Labels]]
+name = "accessibility"
+color = "#1c2026"
+description = "Accessibility issue"
+scope="type"
+
+[[Labels]]
+name = "proposal"
+color = "#23282f"
+description = "A proposed change that needs more discussion before approval"
+scope="type"
+
+[[Labels]]
+name = "dependencies"
+color = "#ffec1a"
+description = "Dependencies issues or improvements"
+scope="type"
+
+[[Labels]]
+name="high"
+color="#aaaaaa"
+description="urgent issue, needs to fixed first"
+scope="prio"
+
+[[Labels]]
+name="medium"
+color="#aaaaaa"
+description="issue that need to be fixed fast"
+scope="prio"
+
+[[Labels]]
+name="low"
+color="#aaaaaa"
+description="issue that can wait to be saved"
+scope="prio"
+
+[[Labels]]
+name="Waiting"
+color="#fec905"
+description="Issue is not actionable because of missing required information"
+scope="pending"
